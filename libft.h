@@ -6,7 +6,7 @@
 /*   By: ekinnune <ekinnune@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/09 19:04:47 by ekinnune          #+#    #+#             */
-/*   Updated: 2022/12/09 13:06:36 by ekinnune         ###   ########.fr       */
+/*   Updated: 2022/12/09 13:20:43 by ekinnune         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ int		ft_print_str(va_list ap);
 
 int		ft_count_based(long unsigned int n, int base);
 int		ft_putbased_fd(long unsigned int n, int base, char format, int fd);
-
 
 //		libft
 int		ft_atoi(const char *str);

@@ -6,7 +6,7 @@
 /*   By: ekinnune <ekinnune@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 12:30:31 by ekinnune          #+#    #+#             */
-/*   Updated: 2022/12/09 13:05:58 by ekinnune         ###   ########.fr       */
+/*   Updated: 2022/12/09 13:20:35 by ekinnune         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,10 @@ int	ft_print_hexdes(va_list ap, char format)
 
 int	ft_print_ptr(va_list ap)
 {
-    long unsigned int too_long;
+	long unsigned int	too_long;
+
 	ft_putstr_fd("0x", 1);
-    too_long = (long unsigned int)va_arg(ap, long int);
+	too_long = (long unsigned int)va_arg(ap, long int);
 	return (ft_putbased_fd(too_long, 16, 'a', 1) + 2);
 }
 
